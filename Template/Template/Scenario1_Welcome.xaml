@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="Template.Scenario1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel VerticalAlignment="Center">
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Style="{StaticResource BasicTextStyle}"  Text="Welcome to Hyperloop!"/>
+        <TextBlock TextWrapping="WrapWholeWords" HorizontalAlignment="Center" Text="&#x0a;&#x0a; This gives real time notifications to you about your hyperloop trip. &#x0a; Please feel free to use our complimentary wi-fi applications while you travel.&#x0a;&#x0a;&#x0a;" />
+        <Button x:Name="continueBtn" Content="Continue" HorizontalAlignment="Center" Click="continueBtn_Click"/>
+    </StackPanel>
+</Page>
